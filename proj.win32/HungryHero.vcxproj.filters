@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\gameElements">
+      <UniqueIdentifier>{382c4fb6-a385-40d3-a04e-20ebe3b6c89d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\objectPools">
+      <UniqueIdentifier>{1390c923-3497-4ecc-b667-9c5a9c4059d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ui">
+      <UniqueIdentifier>{acf57796-7353-4d2d-bfe5-dbce83f47572}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameConstants.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\InGameScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WelcomeScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameElements\BgLayer.cpp">
+      <Filter>Classes\gameElements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameElements\GameBackground.cpp">
+      <Filter>Classes\gameElements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameElements\Hero.cpp">
+      <Filter>Classes\gameElements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameElements\Item.cpp">
+      <Filter>Classes\gameElements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameElements\Obstacle.cpp">
+      <Filter>Classes\gameElements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameElements\Particle.cpp">
+      <Filter>Classes\gameElements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\objectPools\ObjectPool.cpp">
+      <Filter>Classes\objectPools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\objectPools\PoolObject.cpp">
+      <Filter>Classes\objectPools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\GameOverContainer.cpp">
+      <Filter>Classes\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\ScorePanel.cpp">
+      <Filter>Classes\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ui\SoundButton.cpp">
+      <Filter>Classes\ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameConstants.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\InGameScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WelcomeScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameElements\BgLayer.h">
+      <Filter>Classes\gameElements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameElements\GameBackground.h">
+      <Filter>Classes\gameElements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameElements\Hero.h">
+      <Filter>Classes\gameElements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameElements\Item.h">
+      <Filter>Classes\gameElements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameElements\Obstacle.h">
+      <Filter>Classes\gameElements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameElements\Particle.h">
+      <Filter>Classes\gameElements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\objectPools\ObjectPool.h">
+      <Filter>Classes\objectPools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\objectPools\PoolObject.h">
+      <Filter>Classes\objectPools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\GameOverContainer.h">
+      <Filter>Classes\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\ScorePanel.h">
+      <Filter>Classes\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ui\SoundButton.h">
+      <Filter>Classes\ui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
